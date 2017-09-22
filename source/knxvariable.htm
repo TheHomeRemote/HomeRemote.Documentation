@@ -1,0 +1,78 @@
+﻿<html>
+<head>
+    <title>KNX Variable</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="Microsoft.Help.TopicLocale" content="en-us" />
+    <link type="text/css" rel="stylesheet" media="all" href="css/base.css" />
+    <script type="text/javascript" src="js/chmRelative.js"></script>
+</head>
+<body>
+    <div class="titleContainer">
+        <table>
+            <tr>
+                <td><h1 class="title">KNX Variable</h1></td>
+                <td class="logo">
+                    <img src="HomeRemote_Logo_204x39.png" alt="HomeRemote" title="" />
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="main" id="top">
+        <div>
+            <p>
+                <div class="breadcrumbs">
+                    <a href="devices.htm">Devices</a> > <a href="variables.htm">Variables</a>
+                </div>
+                <p>Represents a variable that is linked to group addresses in a <a href="KnxClient.htm">KnxClient</a>.</p>
+<h2>Properties</h2>
+<div class="tablediv">
+    <table cellspacing="0" class="dtTABLE">
+        <tr>
+            <th>Property</th>
+            <th>Description</th>
+        </tr>
+        <tr>
+            <td>DatapointType</td>
+            <td>The DPT ID that defines the scaling and formatting of the variable value.</td>
+        </tr>
+        <tr>
+            <td>Name</td>
+            <td>The identifying name of the object.</td>
+        </tr>
+        <tr>
+            <td>ReadAddress</td>
+            <td>The group address that serves as the source for the variable's display value.</td>
+        </tr>
+        <tr>
+            <td>WriteAddress</td>
+            <td>The group address that serves as the destination for variable write operations.</td>
+        </tr>
+    </table>
+</div>
+<h2>Remarks</h2>
+<p>
+    All properties are optional:  
+    <br/>
+    <br />
+    If the DatapointType property is blank, the variable will not be scaled and it will default to hexadecimal formatting.
+    <br />
+    If the ReadAddress property is blank, the variable will not provide status.  It will always display an empty string.
+    <br />
+    If the WriteAddress property is blank, the variable will ignore write operations.
+    <br />
+    <br />
+    Click <a href="http://thehomeremote.com/downloads/examples/KnxExample.zip">here</a> to download an example project demonstrating use of the KNX Client and KNX variables.
+</p>
+
+            </p>
+        </div>
+    </div>
+    <div class="clear"></div>
+    <div class="footer">
+        <div>Copyright &copy; 2017 The Home Remote. All rights reserved.</div>
+        <a href="mailto:support@thehomeremote.com?subject=Help Documentation : KNX Variable">Contact us</a> for more information on this topic.
+    </div>
+</body>
+</html>
+
+

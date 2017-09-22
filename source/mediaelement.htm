@@ -1,0 +1,141 @@
+﻿<html>
+<head>
+    <title>Media Element</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="Microsoft.Help.TopicLocale" content="en-us" />
+    <link type="text/css" rel="stylesheet" media="all" href="css/base.css" />
+    <script type="text/javascript" src="js/chmRelative.js"></script>
+</head>
+<body>
+    <div class="titleContainer">
+        <table>
+            <tr>
+                <td><h1 class="title">Media Element</h1></td>
+                <td class="logo">
+                    <img src="HomeRemote_Logo_204x39.png" alt="HomeRemote" title="" />
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="main" id="top">
+        <div>
+            <p>
+                <div class="breadcrumbs">
+                    <a href="userinterface.htm">User Interface</a> > <a href="controls.htm">Controls</a>
+                </div>
+                <p>Represents an object that renders audio and video to the display.</p>
+<h2>Properties</h2>
+<div class="tablediv">
+    <table cellspacing="0" class="dtTABLE">
+        <tr>
+            <th>Property</th>
+            <th>Description</th>
+        </tr>
+        <tr>
+            <td>AreTransportControlsEnabled</td>
+            <td>A boolean value that indicates whether the media element shows system-provided playback controls.</td>
+        </tr>
+        <tr>
+            <td>AutoPlay</td>
+            <td>A boolean value that indicates whether media will begin playback automatically when the control comes into view.</td>
+        </tr>
+        <tr>
+            <td>CommandVariable</td>
+            <td>A <a href="Variables.htm">Variable</a> used to execute playback commands on the control. (See Commands)</td>
+        </tr>
+        <tr>
+            <td>Height</td>
+            <td>The suggested height of the control.</td>
+        </tr>
+        <tr>
+            <td>Left</td>
+            <td>The distance between the left side of the control and the left side of its parent <a href="canvas.htm">Canvas</a>.</td>
+        </tr>
+        <tr>
+            <td>Name</td>
+            <td>The identifying name of the object.</td>
+        </tr>
+        <tr>
+            <td>Source</td>
+            <td>The URL that provides video and/or audio to the media element.</td>
+        </tr>
+        <tr>
+            <td>SourceVariable</td>
+            <td>A <a href="Variables.htm">Variable</a> bound to the Source property of the control.</td>
+        </tr>
+        <tr>
+            <td>Top</td>
+            <td>The distance between the top of the control and the top of its parent <a href="canvas.htm">Canvas</a>.</td>
+        </tr>
+        <tr>
+            <td>TransportStateVariable</td>
+            <td>A <a href="Variables.htm">Variable</a> bound to the current transport state of the control. (Closed, Opening, Playing, Paused, Stopped)</td>
+        </tr>
+        <tr>
+            <td>Visibility</td>
+            <td>The <a href="Visibility.htm">Visibility</a> settings of the control.</td>
+        </tr>
+        <tr>
+            <td>Width</td>
+            <td>The suggested width of the control.</td>
+        </tr>
+        <tr>
+            <td>ZIndex</td>
+            <td>The <a href="ZIndex.htm">ZIndex</a> determines the order on the z-plane in which the control appears.</td>
+        </tr>
+    </table>
+</div>
+<h2>Commands</h2>
+<div class="tablediv">
+    <table cellspacing="0" class="dtTABLE">
+        <tr>
+            <th>Command</th>
+            <th>Parameters</th>
+            <th>Description</th>
+        </tr>
+        <tr>
+            <td>Pause</td>
+            <td>n/a</td>
+            <td>Pauses media at the current position.</td>
+        </tr>
+        <tr>
+            <td>Play</td>
+            <td>n/a</td>
+            <td>Plays media from the current position.</td>
+        </tr>
+        <tr>
+            <td>Stop</td>
+            <td>n/a</td>
+            <td>Stops and resets media to be played from the beginning.</td>
+        </tr>
+    </table>
+</div>
+<h2>Remarks</h2>
+<p>
+    AreTransportControlsEnabled is only supported in the apps themselves.  The simulator will not show playback controls when this property is set.
+    <br />
+    <br />
+    TransportStateVariable is read-only.  To control playback please use the CommandVariable property.
+    <br />
+    <br />
+    Do not use this control to display a MJPEG stream from an IP camera.  While it may work in the simulator, it will not in the apps themselves.  Only use this control to display H.264 streams from IP cameras.  You can define credentials for the connection in the Source URL like so:
+    <br />
+    <br />
+    rtsp://username:password@IPADDRESS:554/live.sdp
+</p>
+
+
+
+
+            </p>
+        </div>
+    </div>
+    <div class="clear"></div>
+    <div class="footer">
+        <div>Copyright &copy; 2017 The Home Remote. All rights reserved.</div>
+        <a href="mailto:support@thehomeremote.com?subject=Help Documentation : Media Element">Contact us</a> for more information on this topic.
+    </div>
+</body>
+</html>
+
+

@@ -1,0 +1,507 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML>
+<HEAD>
+<meta name="GENERATOR" content="Microsoft&reg; HTML Help Workshop 4.1">
+<!-- Sitemap 1.0 -->
+</HEAD><BODY>
+<OBJECT type="text/site properties">
+	<param name="Window Styles" value="0x800025">
+<param name="Font" value="Arial,8,0">
+</OBJECT>
+<UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Introduction">
+		<param name="Local" value="Introduction.htm">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Welcome">
+			<param name="Local" value="Welcome.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="System Requirements">
+			<param name="Local" value="systemrequirements.htm">
+			</OBJECT>
+	</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Getting Started">
+		<param name="Local" value="GettingStarted.htm">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="How to: Create a Project">
+			<param name="Local" value="howtocreateaproject.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="How to: Add Pages">
+			<param name="Local" value="howtoaddpages.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="How to: Add Devices">
+			<param name="Local" value="howtoadddevices.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="How to: Add Controls">
+			<param name="Local" value="howtoaddcontrols.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="How to: Add Images">
+			<param name="Local" value="howtoaddimages.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="How to: Use Property Grid">
+			<param name="Local" value="howtousepropertygrid.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="How to: Use Themes">
+			<param name="Local" value="howtousethemes.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="How to: Delete Content (Pages/Devices/Controls/Images)">
+			<param name="Local" value="howtodeletecontentpagesdevicescontrolsimages.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="How to: Simulate">
+			<param name="Local" value="howtosimulate.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="How to: Publish">
+			<param name="Local" value="howtopublish.htm">
+			</OBJECT>
+	</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="User Interface">
+		<param name="Local" value="UserInterface.htm">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Controls">
+			<param name="Local" value="controls.htm">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Button">
+				<param name="Local" value="Button.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Canvas">
+				<param name="Local" value="Canvas.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Color Wheel">
+				<param name="Local" value="colorwheel.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Combo Box">
+				<param name="Local" value="ComboBox.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Digital Clock">
+				<param name="Local" value="digitalclock.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Grid View">
+				<param name="Local" value="GridView.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Hyperlink Button">
+				<param name="Local" value="hyperlinkbutton.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Image">
+				<param name="Local" value="Image.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Image Button">
+				<param name="Local" value="ImageButton.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Label">
+				<param name="Local" value="Label.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Media Browser">
+				<param name="Local" value="mediabrowser.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Media Element">
+				<param name="Local" value="mediaelement.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="MJPEG View">
+				<param name="Local" value="mjpegview.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Radio Button">
+				<param name="Local" value="radiobutton.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Page">
+				<param name="Local" value="Page.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Page Browser">
+				<param name="Local" value="pagebrowser.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Page Group">
+				<param name="Local" value="PageGroup.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Page Link">
+				<param name="Local" value="pagelink.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Rectangle">
+				<param name="Local" value="Rectangle.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Slider">
+				<param name="Local" value="Slider.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Text Box">
+				<param name="Local" value="TextBox.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Toggle Switch">
+				<param name="Local" value="ToggleSwitch.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Web Image">
+				<param name="Local" value="WebImage.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Web Browser">
+				<param name="Local" value="WebBrowser.htm">
+				</OBJECT>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Control Settings">
+			<param name="Local" value="controlsettings.htm">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Button Type">
+				<param name="Local" value="buttontype.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Image Appearance">
+				<param name="Local" value="ImageAppearance.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Image Selector Item">
+				<param name="Local" value="imageselectoritem.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Image Source">
+				<param name="Local" value="imagesource.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="IP Camera Selector Item">
+				<param name="Local" value="ipcameraselectoritem.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Keyboard">
+				<param name="Local" value="keyboard.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="List Item">
+				<param name="Local" value="listitem.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Media Item Layout">
+				<param name="Local" value="mediaitemlayout.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Media Object Image">
+				<param name="Local" value="mediaobjectimage.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="On/Off States">
+				<param name="Local" value="onoffstates.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Shape Appearance">
+				<param name="Local" value="shapeappearance.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Text Alignment">
+				<param name="Local" value="textalignment.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Text Appearance">
+				<param name="Local" value="textappearance.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Text Appearance">
+				<param name="Local" value="textappearance.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Text Selector Item">
+				<param name="Local" value="textselectoritem.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Text Source">
+				<param name="Local" value="textsource.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Theme Color">
+				<param name="Local" value="themecolor.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Trigger">
+				<param name="Local" value="trigger.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Video Source">
+				<param name="Local" value="videosource.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Visibility">
+				<param name="Local" value="visibility.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Z-Index">
+				<param name="Local" value="zindex.htm">
+				</OBJECT>
+		</UL>
+	</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Devices">
+		<param name="Local" value="Devices.htm">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Sources">
+			<param name="Local" value="sources.htm">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Crestron Controller">
+				<param name="Local" value="CrestronController.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="DM Receiver">
+				<param name="Local" value="dmreceiver.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="ecobee Thermostat">
+				<param name="Local" value="ecobeethermostat.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="GC Device">
+				<param name="Local" value="gcdevice.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Harmony Hub">
+				<param name="Local" value="harmonyhub.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Honeywell TCC Thermostat">
+				<param name="Local" value="honeywelltccthermostat.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="HTTP Client">
+				<param name="Local" value="httpclient.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Hue Bridge">
+				<param name="Local" value="huebridge.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Insteon Hub">
+				<param name="Local" value="insteonhub.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="KNX Client">
+				<param name="Local" value="knxclient.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Lyric Thermostat">
+				<param name="Local" value="lyricthermostat.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="MyQ Gateway">
+				<param name="Local" value="myqgateway.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Nest Thermostat">
+				<param name="Local" value="NestThermostat.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Pandora Radio">
+				<param name="Local" value="pandoraradio.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Russound Controller">
+				<param name="Local" value="russoundcontroller.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="SmartThings Hub">
+				<param name="Local" value="smartthingshub.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Spotify Music">
+				<param name="Local" value="spotifymusic.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="TuneIn Radio">
+				<param name="Local" value="tuneinradio.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="UPnP Belkin Light Switch 1">
+				<param name="Local" value="upnpbelkinlightswitch1.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="UPnP Belkin Switch 1">
+				<param name="Local" value="upnpbelkinswitch1.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="UPnP Binary Light 1">
+				<param name="Local" value="upnpbinarylight1.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="UPnP Dimmable Light 1">
+				<param name="Local" value="upnpdimmablelight1.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="UPnP Media Renderer 1">
+				<param name="Local" value="upnpmediarenderer1.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="UPnP Media Server 1">
+				<param name="Local" value="upnpmediaserver1.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Vera Controller">
+				<param name="Local" value="VeraController.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Virtual Device">
+				<param name="Local" value="VirtualDevice.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Wink Hub">
+				<param name="Local" value="winkhub.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Yamaha Receiver">
+				<param name="Local" value="yamahareceiver.htm">
+				</OBJECT>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Variables">
+			<param name="Local" value="variables.htm">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Crestron Controller Variable">
+				<param name="Local" value="CrestronControllerVariable.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="DM Receiver Variable">
+				<param name="Local" value="dmreceivervariable.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="ecobee Thermostat Variable">
+				<param name="Local" value="ecobeethermostatvariable.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="GC Variable">
+				<param name="Local" value="gcvariable.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Harmony Variable">
+				<param name="Local" value="harmonyvariable.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Honeywell TCC Thermostat Variable">
+				<param name="Local" value="honeywelltccthermostatvariable.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="HTTP Variable">
+				<param name="Local" value="httpvariable.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Hue Variable">
+				<param name="Local" value="huevariable.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Insteon Variable">
+				<param name="Local" value="insteonvariable.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Lyric Thermostat Variable">
+				<param name="Local" value="lyricthermostatvariable.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="KNX Variable">
+				<param name="Local" value="knxvariable.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="MyQ Variable">
+				<param name="Local" value="myqvariable.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Nest Thermostat Variable">
+				<param name="Local" value="NestThermostatVariable.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Russound Variable">
+				<param name="Local" value="russoundvariable.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="SmartThings Variable">
+				<param name="Local" value="smartthingsvariable.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="UPnP Belkin Light Switch 1 Variable">
+				<param name="Local" value="upnpbelkinlightswitch1variable.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="UPnP Belkin Switch 1 Variable">
+				<param name="Local" value="upnpbelkinswitch1variable.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="UPnP Binary Light 1 Variable">
+				<param name="Local" value="upnpbinarylight1variable.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="UPnP Dimmable Light 1 Variable">
+				<param name="Local" value="upnpdimmablelight1variable.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="UPnP Media Renderer 1 Variable">
+				<param name="Local" value="upnpmediarenderer1variable.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Vera Controller Variable">
+				<param name="Local" value="VeraControllerVariable.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Virtual Device Variable">
+				<param name="Local" value="VirtualDeviceVariable.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Wink Variable">
+				<param name="Local" value="winkvariable.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Yamaha Receiver Variable">
+				<param name="Local" value="yamahareceivervariable.htm">
+				</OBJECT>
+		</UL>
+	</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Voice Commands">
+		<param name="Local" value="voicecommands.htm">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Voice Command">
+			<param name="Local" value="voicecommand.htm">
+			</OBJECT>
+	</UL>
+</UL>
+</BODY></HTML>

@@ -1,0 +1,95 @@
+﻿<html>
+<head>
+    <title>GC Variable</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="Microsoft.Help.TopicLocale" content="en-us" />
+    <link type="text/css" rel="stylesheet" media="all" href="css/base.css" />
+    <script type="text/javascript" src="js/chmRelative.js"></script>
+</head>
+<body>
+    <div class="titleContainer">
+        <table>
+            <tr>
+                <td><h1 class="title">GC Variable</h1></td>
+                <td class="logo">
+                    <img src="HomeRemote_Logo_204x39.png" alt="HomeRemote" title="" />
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="main" id="top">
+        <div>
+            <p>
+                <div class="breadcrumbs">
+                    <a href="devices.htm">Devices</a> > <a href="variables.htm">Variables</a>
+                </div>
+                <p>Represents a variable that is linked to a connection on a <a href="GCDevice.htm">Global Cach&eacute; Device</a>.</p>
+<h2>Properties</h2>
+<div class="tablediv">
+    <table cellspacing="0" class="dtTABLE">
+        <tr>
+            <th>Property</th>
+            <th>Description</th>
+        </tr>
+        <tr>
+            <td>ConnectorType</td>
+            <td>A value that specifies whether the variable is linked to a relay, sensor, or IR connection on the Global Cach&eacute; device.</td>
+        </tr>
+        <tr>
+            <td>ConnectorAddress</td>
+            <td>The address of the connection (see Remarks).</td>
+        </tr>
+        <tr>
+            <td>IRCode</td>
+            <td>The IR code sent to a device through an IR connection (see Remarks).</td>
+        </tr>
+        <tr>
+            <td>Name</td>
+            <td>The identifying name of the object.</td>
+        </tr>
+    </table>
+</div>
+<h2>Remarks</h2>
+<h3>Connector Address</h3>
+<p>
+    Here is an explanation of the ConnectorAddress taken directly from Global Cach&eacute; documentation...
+    <br />
+    <br />
+    <i>
+        A connector's address is its position within a module, starting at 1 on the left, and increasing sequentially
+        as you move to the right. A complete connector address includes the module address and the connector
+        location in the module, separated by a colon. In figure 1 below, one IR module is contained in the iTach
+        IP2IR, and is located in module 1. The first IR connector on the IR module has an address of 1:1,
+        whereas the third IR connector has an address of 1:3.
+    </i>
+</p>
+<br />
+<img src="/img/GC_ConnectorAddress_iTach.png" />
+<br />
+<br />
+<p>GC-100 Network Adapters are addressed in the same manner.</p>
+<br/>
+<img src="/img/GC_ConnectorAddress_GC100.png" />
+<br />
+<br />
+<h3>IR Code</h3>
+<p>
+    The IRCode is the entire command string that is sent to the Global Cach&eacute; device.  Global Cach&eacute; provides a very helpful database of IR codes that anyone with an email address can access.
+    Their website will immediately email you any codes you request.   From that email you should copy the entire code1 string and paste it into the IRCode property of the GCVariable.  The code2 string is an alternate that could also be used.
+    The web address for the IR database is <a href="https://irdb.globalcache.com/" target="_blank">https://irdb.globalcache.com/</a>.
+</p>
+<br />
+ <img src="/img/GC_IRCodeEmail.png" />
+
+            </p>
+        </div>
+    </div>
+    <div class="clear"></div>
+    <div class="footer">
+        <div>Copyright &copy; 2017 The Home Remote. All rights reserved.</div>
+        <a href="mailto:support@thehomeremote.com?subject=Help Documentation : GC Variable">Contact us</a> for more information on this topic.
+    </div>
+</body>
+</html>
+
+

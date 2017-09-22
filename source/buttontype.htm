@@ -1,0 +1,72 @@
+﻿<html>
+<head>
+    <title>Button Type</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="Microsoft.Help.TopicLocale" content="en-us" />
+    <link type="text/css" rel="stylesheet" media="all" href="css/base.css" />
+    <script type="text/javascript" src="js/chmRelative.js"></script>
+</head>
+<body>
+    <div class="titleContainer">
+        <table>
+            <tr>
+                <td><h1 class="title">Button Type</h1></td>
+                <td class="logo">
+                    <img src="HomeRemote_Logo_204x39.png" alt="HomeRemote" title="" />
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="main" id="top">
+        <div>
+            <p>
+                <div class="breadcrumbs">
+                    <a href="userinterface.htm">User Interface</a> > <a href="controlsettings.htm">Control Settings</a>
+                </div>
+                <p>Defines the behavior of a button control and how it interacts with a control's state variable.</p>
+<h2>Members</h2>
+<div class="tablediv">
+    <table cellspacing="0" class="dtTABLE">
+        <tr>
+            <th>Member</th>
+            <th>Description</th>
+        </tr>
+        <tr>
+            <td>Normal</td>
+            <td>Specifies that the variable should be <q>set</q> after a button is pressed and released.</td>
+        </tr>
+        <tr>
+            <td>Momentary</td>
+            <td>Specifies that the variable should be <q>set</q> when a button is pressed and <q>reset</q> when a button is released.</td>
+        </tr>
+        <tr>
+            <td>Pulse</td>
+            <td>Specifies that the variable should be <q>set</q> after a button is pressed and released.  After 250 ms the variable is then <q>reset</q>.</td>
+        </tr>
+        <tr>
+            <td>Toggle</td>
+            <td>Specifies that, while in Off state, the variable should be <q>set</q> after a button is pressed and released.  While in On state, the variable should be <q>reset</q> after a button is pressed and released.</td>
+        </tr>
+    </table>
+</div>
+
+<h2>Remarks</h2>
+<p>
+    There is only one command associated with a variable.  This command is executed each time the variable is <q>set</q> and <q>reset</q>.
+    The difference between the two is that when a <q>set</q> is performed the OnState value is passed in as an argument.  When a <q>reset</q> is performed the OffState value is passed in as an argument.
+    <br /><br />
+    See <a href="OnOffStates.htm">OnOffStates</a>.
+</p>
+
+            </p>
+        </div>
+    </div>
+    <div class="clear"></div>
+    <div class="footer">
+        <div>Copyright &copy; 2017 The Home Remote. All rights reserved.</div>
+        <a href="mailto:support@thehomeremote.com?subject=Help Documentation : Button Type">Contact us</a> for more information on this topic.
+    </div>
+</body>
+</html>
+
+

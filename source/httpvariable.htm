@@ -1,0 +1,100 @@
+﻿<html>
+<head>
+    <title>HTTP Variable</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="Microsoft.Help.TopicLocale" content="en-us" />
+    <link type="text/css" rel="stylesheet" media="all" href="css/base.css" />
+    <script type="text/javascript" src="js/chmRelative.js"></script>
+</head>
+<body>
+    <div class="titleContainer">
+        <table>
+            <tr>
+                <td><h1 class="title">HTTP Variable</h1></td>
+                <td class="logo">
+                    <img src="HomeRemote_Logo_204x39.png" alt="HomeRemote" title="" />
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="main" id="top">
+        <div>
+            <p>
+                <div class="breadcrumbs">
+                    <a href="devices.htm">Devices</a> > <a href="variables.htm">Variables</a>
+                </div>
+                <p>Represents a variable that is used to execute a HTTP request.</p>
+<h2>Properties</h2>
+<div class="tablediv">
+    <table cellspacing="0" class="dtTABLE">
+        <tr>
+            <th>Property</th>
+            <th>Description</th>
+        </tr>
+        <tr>
+            <td>Content</td>
+            <td>The contents of the HTTP message.</td>
+        </tr>
+        <tr>
+            <td>ContentType</td>
+            <td>The content type of the HTTP message.</td>
+        </tr>
+        <tr>
+            <td>Method</td>
+            <td>The HTTP method to be performed on the request URI.</td>
+        </tr>
+        <tr>
+            <td>Name</td>
+            <td>The identifying name of the object.</td>
+        </tr>
+        <tr>
+            <td>StatusPath</td>
+            <td>A JSONPath or XPath expression that points a specific value in the response string returned from a HTTP request.  (See Remarks)</td>
+        </tr>
+        <tr>
+            <td>StatusSource</td>
+            <td>The source for the variable's display value.</td>
+        </tr>
+        <tr>
+            <td>URI</td>
+            <td>A URI relative to the source that defines the HTTP request.</td>
+        </tr>
+    </table>
+</div>
+<h2>Remarks</h2>
+<p>
+    Variable values can be referenced in the Content and URI definitions.
+    <br />
+    <br />
+    To include the current value for a variable in the Content or URI, add the flag $HomeRemote.X.Value, where X is the name of your variable.
+    <br />
+    <br />
+    To include the requested value for a variable in the Content or URI, add the flag $HomeRemote.X.RequestedValue, where X is the name of your variable.
+    <br />
+    <br />
+    The requested value is the value that the variable is set to when a control changes.  
+    Consider the situation where variable X which is bound to the <a href="OnOffStates.htm">States</a> property on either a <a href="button.htm">Button</a> or an <a href="imagebutton.htm">ImageButton</a> control.  
+    $HomeRemote.X.RequestedValue will be replaced with the OnValue (or OffValue) of the button when it is clicked.
+    <br/>
+    <br />
+    The StatusPath property is only used when the StatusSource property is set to either StatusRequest or VariableRequest.  When set to StatusRequest, the reponse data from the parent <a href="HttpClient.htm">HttpClient's</a> StatusRequest is the source for the variable's display value.  When set to VariableRequest, the response from the request defined by this variable is the source for the variable's display value.
+    <br />
+    <br />
+    Click <a target="_blank" href="http://goessner.net/articles/JsonPath/">here</a> to learn more about JSONPath.
+    <br />
+    Click <a target="_blank" href="https://en.wikipedia.org/wiki/XPath">here</a> to learn more about XPath.
+</p>
+
+
+            </p>
+        </div>
+    </div>
+    <div class="clear"></div>
+    <div class="footer">
+        <div>Copyright &copy; 2017 The Home Remote. All rights reserved.</div>
+        <a href="mailto:support@thehomeremote.com?subject=Help Documentation : HTTP Variable">Contact us</a> for more information on this topic.
+    </div>
+</body>
+</html>
+
+

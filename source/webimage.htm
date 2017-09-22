@@ -1,0 +1,102 @@
+﻿<html>
+<head>
+    <title>Web Image</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="Microsoft.Help.TopicLocale" content="en-us" />
+    <link type="text/css" rel="stylesheet" media="all" href="css/base.css" />
+    <script type="text/javascript" src="js/chmRelative.js"></script>
+</head>
+<body>
+    <div class="titleContainer">
+        <table>
+            <tr>
+                <td><h1 class="title">Web Image</h1></td>
+                <td class="logo">
+                    <img src="HomeRemote_Logo_204x39.png" alt="HomeRemote" title="" />
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="main" id="top">
+        <div>
+            <p>
+                <div class="breadcrumbs">
+                    <a href="userinterface.htm">User Interface</a> > <a href="controls.htm">Controls</a>
+                </div>
+                <p>Represents a control that displays an image from a web source.</p>
+<h2>Properties</h2>
+<div class="tablediv">
+    <table cellspacing="0" class="dtTABLE">
+        <tr>
+            <th>Property</th>
+            <th>Description</th>
+        </tr>
+        <tr>
+            <td>Height</td>
+            <td>The suggested height of the control.</td>
+        </tr>
+        <tr>
+            <td>Left</td>
+            <td>The distance between the left side of the control and the left side of its parent <a href="canvas.htm">Canvas</a>.</td>
+        </tr>
+        <tr>
+            <td>Name</td>
+            <td>The identifying name of the object.</td>
+        </tr>
+        <tr>
+            <td>RefreshRate</td>
+            <td>The rate in milliseconds that the control should refresh its content.</td>
+        </tr>
+        <tr>
+            <td>RefreshTrigger</td>
+            <td>A <a href="Trigger.htm">Trigger</a> that reloads the image from the control's URL.</td>
+        </tr>
+        <tr>
+            <td>Top</td>
+            <td>The distance between the top of the control and the top of its parent <a href="canvas.htm">Canvas</a>.</td>
+        </tr>
+        <tr>
+            <td>Url</td>
+            <td>The URL that provides the path to an image to display in the control.</td>
+        </tr>
+        <tr>
+            <td>Visibility</td>
+            <td>The <a href="Visibility.htm">Visibility</a> settings of the control.</td>
+        </tr>
+        <tr>
+            <td>Width</td>
+            <td>The suggested width of the control.</td>
+        </tr>
+        <tr>
+            <td>ZIndex</td>
+            <td>The <a href="ZIndex.htm">ZIndex</a> determines the order on the z-plane in which the control appears.</td>
+        </tr>
+    </table>
+</div>
+<h2>Remarks</h2>
+<p>
+    The control will refresh its content when the control is first loaded and whenever the Refresh button is clicked.  Automatic refreshing can be accomplished by providing either a RefreshTrigger or a RefreshRate greater than -1.
+    <br/>    
+    <br />
+    This control can also be used to display video from an IP camera by setting the Url property to the snapshot URL provided by the camera manufacturer.  You will also need to set the RefreshRate to 0 or a value greater than 0.  
+    <br />
+    <br />
+    Credentials for the connection can be defined in the URL like so:
+    <br />
+    http://username:password@IPADDRESS:80/snapshot.cgi
+</p>
+
+
+
+            </p>
+        </div>
+    </div>
+    <div class="clear"></div>
+    <div class="footer">
+        <div>Copyright &copy; 2017 The Home Remote. All rights reserved.</div>
+        <a href="mailto:support@thehomeremote.com?subject=Help Documentation : Web Image">Contact us</a> for more information on this topic.
+    </div>
+</body>
+</html>
+
+

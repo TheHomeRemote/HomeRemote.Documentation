@@ -1,0 +1,164 @@
+body {
+    font-family: 'Segoe UI', Verdana, Arial;
+    color: black;
+    background: white;
+    padding: 0;
+    margin: 0;
+}
+
+a
+{
+    color: #0072c6;
+    text-decoration: none;
+}
+
+a:link
+{
+    color: #0072c6;
+}
+
+a:hover
+{
+    text-decoration: underline;
+}
+
+a img 
+{
+    border:none;
+}
+
+p {
+    margin: 12px 0;
+    clear: both;
+}
+
+.titleContainer
+{
+   margin: 13px 0;   
+   font-family:'Segoe UI', Verdana, Arial;
+}
+
+div.titleContainer table
+{
+	border: 0;	
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+	border-collapse:collapse; 
+	border-spacing:0; 
+}
+
+.titleContainer td
+{
+  border: 0px;  
+  vertical-align: middle;
+}
+
+.title
+{
+	font-family:'Segoe UI', Verdana, Arial;
+	font-size: 1.78em;  /*17pt*/
+	font-weight: normal;
+	padding-left:10px;
+	text-align: left;
+	color:black;
+}
+
+.logo
+{
+	padding:0px;
+	padding-top:11px;
+	padding-right:13px;
+	padding-bottom:12px;
+	vertical-align:middle;
+	text-align: right;
+}
+
+.main
+{
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 15px;
+  padding-right:10px;
+}
+
+.main table
+{
+  border-collapse:collapse;
+  border:1px solid #bbbbbb;
+  margin-bottom:5px;
+  margin-top:5px;
+  margin-right:13px;
+  padding:0px;
+  width:auto;
+}
+
+.main th 
+{
+  font-family:'Segoe UI', Verdana, Arial;
+  font-size:0.85em; /*10pt*/
+  border:1px solid #bbbbbb;
+  color:#000000;
+  background-color:#e5e5e5;
+  padding:5px;
+  vertical-align:middle;
+  text-align:left;
+}
+
+.main td
+{
+  font-family:'Segoe UI', Verdana, Arial;
+  font-size:0.85em; /*10pt*/
+  border:1px solid #bbbbbb;
+  color:#000000;
+  padding:5px;
+  overflow:visible;
+  vertical-align:top;
+}
+
+.main td p
+{
+  padding: 5px;
+}
+
+.main td img
+{
+  margin-top:3px;
+  margin-bottom:3px;
+}
+
+.footer 
+{
+	padding: 12px;
+	line-height: 18px;
+	color: #999999;
+	font-size: 11px;
+	border-top: 1px solid #BBBBBB;
+	background: #f0f0f0;
+    clear:both;
+    margin-top:24px;
+}
+
+.clear
+{
+  clear:both;
+}
+
+
+h2
+{
+	font-family:'Segoe UI', Verdana, Arial;
+	font-size: 1.37em;
+	font-weight: normal;
+	text-align: left;
+	color:black;
+}
+
+h3
+{
+	font-family:'Segoe UI', Verdana, Arial;
+	font-size: 1.27em;
+	font-weight: normal;
+	text-align: left;
+	color:black;
+}

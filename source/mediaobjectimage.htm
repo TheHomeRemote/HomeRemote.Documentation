@@ -1,0 +1,72 @@
+﻿<html>
+<head>
+    <title>Media Object Image</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="Microsoft.Help.TopicLocale" content="en-us" />
+    <link type="text/css" rel="stylesheet" media="all" href="css/base.css" />
+    <script type="text/javascript" src="js/chmRelative.js"></script>
+</head>
+<body>
+    <div class="titleContainer">
+        <table>
+            <tr>
+                <td><h1 class="title">Media Object Image</h1></td>
+                <td class="logo">
+                    <img src="HomeRemote_Logo_204x39.png" alt="HomeRemote" title="" />
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="main" id="top">
+        <div>
+            <p>
+                <div class="breadcrumbs">
+                    <a href="userinterface.htm">User Interface</a> > <a href="controlsettings.htm">Control Settings</a>
+                </div>
+                <p>Represents an image for a media object in a <a href="MediaBrowser.htm">Media Browser</a> control.</p>
+<h2>Properties</h2>
+<div class="tablediv">
+    <table cellspacing="0" class="dtTABLE">
+        <tr>
+            <th>Property</th>
+            <th>Description</th>
+        </tr>
+        <tr>
+            <td>ImageName</td>
+            <td>A name that specifies the image of an object.</td>
+        </tr>
+        <tr>
+            <td>Name</td>
+            <td>The identifying name of the object.</td>
+        </tr>
+        <tr>
+            <td>Class</td>
+            <td>The class for the media object. (See Remarks)</td>
+        </tr>
+    </table>
+</div>
+<h2>Remarks</h2>
+<p>
+    These definitions are used to determine the image that is displayed for objects in a <a href="MediaBrowser.htm">Media Browser</a> control.
+    If the server associated with the control provides artwork for an object that will be displayed, however not every object has artwork.
+    The image that is used for those objects will be based on the object's class type.
+    Every media object has an assigned class type.  
+    Examples include container class types such as <i>object.container.storageFolder</i> and <i>object.container.playlistContainer</i> as well as item classes such as <i>object.item.audioItem.musicTrack</i> and <i>object.item.videoItem.movie</i>.
+    So if you want a particular image to be displayed for objects of class type <i>object.container.storageFolder</i> that have no artwork, choose an image and set the class type to <i>object.container.storageFolder</i>.
+    Because it's hard to foresee every possible class type we recommend adding an image to this collection with the Class property left blank.
+    That image will be considered the default for the <a href="MediaBrowser.htm">Media Browser</a> control.
+    It will be used for all objects that have no server defined artwork and no specific class entry in the collection.
+</p>
+
+            </p>
+        </div>
+    </div>
+    <div class="clear"></div>
+    <div class="footer">
+        <div>Copyright &copy; 2017 The Home Remote. All rights reserved.</div>
+        <a href="mailto:support@thehomeremote.com?subject=Help Documentation : Media Object Image">Contact us</a> for more information on this topic.
+    </div>
+</body>
+</html>
+
+
